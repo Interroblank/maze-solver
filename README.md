@@ -51,7 +51,7 @@ The asterisks in the above example indicate obstructions. The solution path may 
 	}
 ```
 
-Given mazes can be (within reason) to any degree of size and complexity. If there is no path from 's' to 'f', 'solve()' will return ```null```. A call to the above method will return 'LLDDRRRDDL'.
+Given mazes can be (within reason) to any degree of size and complexity. If there is no path from 's' to 'f', 'solve()' will return ```null```. A call to the above method will print 'LLDDRRRDDL'.
 
 ## Solution Legend:
 
