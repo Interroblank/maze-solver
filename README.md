@@ -35,7 +35,7 @@ The example method above, for instance, will print 'DDDD' when called, indicatin
 	}
 ```
 
-The asterisks in the above example indicate obstructions. The solution path may not pass through the obstruction characters. The solution path must also stay within the bounds of the maze. So this method, when called, will print 'DRRDDDLL'.
+The asterisks in the above example indicate obstructions. The solution path may not pass through the obstruction characters. The solution path must also stay within the bounds of the maze. So this method will print 'DRRDDDLL'.
 
 ```
 	public static void simpleTest_3() {
@@ -51,14 +51,14 @@ The asterisks in the above example indicate obstructions. The solution path may 
 	}
 ```
 
-Given mazes can be (within reason) to any degree of size and complexity. If there is no path from 's' to 'f', 'solve()' will return ```null```. A call to the above method will print 'LLDDRRRDDL'.
+Given mazes can be to any degree of size and complexity. If there is no path from 's' to 'f', 'solve()' will return ```null```. A call to the above method will print 'LLDDRRRDDL'.
 
 ## Solution Legend:
 
-  *U -> Up.*
+  *U -> Up*
 
-  *D -> Down.*
+  *D -> Down*
 
-  *L -> Left.*
+  *L -> Left*
 
-  *R -> Right.*
+  *R -> Right*
